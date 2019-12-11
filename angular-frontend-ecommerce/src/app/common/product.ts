@@ -1,4 +1,4 @@
-export class Products {
+export class Product {
   sku: string;
   name: string;
   description: string;
