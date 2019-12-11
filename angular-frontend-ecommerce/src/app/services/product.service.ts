@@ -5,5 +5,8 @@ import { Injectable } from '@angular/core';
 })
 export class ProductService {
 
+  // hardcoded for now, TODO: move it to the configuration file
+  private baseUrl = 'http://localhost:8080/api/products';
+
   constructor() { }
 }
